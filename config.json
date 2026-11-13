@@ -1,0 +1,18 @@
+{
+  "repo": "vicenix45/vicenix-autopost",
+  "release_fila": "fila",
+  "pasta_postar": "G:/Meu Drive/GTA6/PRONTOS PARA POSTAR",
+  "pasta_narracoes": "../_sistema/narracoes",
+  "fuso_horas": -3,
+  "plataformas": {
+    "instagram": true,
+    "youtube": false
+  },
+  "instagram_conta": "vicenix45",
+  "instagram_api": "v27.0",
+  "youtube_categoria": "20",
+  "max_por_execucao": 1,
+  "atraso_maximo_horas": 24,
+  "max_tentativas": 3,
+  "apagar_video_depois": true
+}
