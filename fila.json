@@ -1,7 +1,7 @@
 [
   {
-    "id": "2026-11-13_12h00",
-    "quando": "2026-11-13T12:00-03:00",
+    "id": "2026-11-13_11h30",
+    "quando": "2026-11-13T11:30-03:00",
     "titulo": "Video 01 - Maior da historia",
     "arquivo": "2026-11-13_12h00-video-01-maior-da-historia.mp4",
     "ia": false,
@@ -27,8 +27,8 @@
     }
   },
   {
-    "id": "2026-11-13_18h00",
-    "quando": "2026-11-13T18:00-03:00",
+    "id": "2026-11-13_17h30",
+    "quando": "2026-11-13T17:30-03:00",
     "titulo": "Video 11 - Trailer 1 x Trailer 2 (TELA DIVIDIDA)",
     "arquivo": "2026-11-13_18h00-video-11-trailer-1-x-trailer-2-tela-dividida.mp4",
     "ia": true,
@@ -54,8 +54,8 @@
     }
   },
   {
-    "id": "2026-11-14_12h00",
-    "quando": "2026-11-14T12:00-03:00",
+    "id": "2026-11-14_11h30",
+    "quando": "2026-11-14T11:30-03:00",
     "titulo": "Video 05 - Preload liberado",
     "arquivo": "2026-11-14_12h00-video-05-preload-liberado.mp4",
     "ia": false,
@@ -81,8 +81,8 @@
     }
   },
   {
-    "id": "2026-11-14_18h00",
-    "quando": "2026-11-14T18:00-03:00",
+    "id": "2026-11-14_17h30",
+    "quando": "2026-11-14T17:30-03:00",
     "titulo": "Video 12 - Mais vendido da historia (TWEET)",
     "arquivo": "2026-11-14_18h00-video-12-mais-vendido-da-historia-tweet.mp4",
     "ia": true,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "id": "2026-11-15_12h00",
-    "quando": "2026-11-15T12:00-03:00",
+    "id": "2026-11-15_11h30",
+    "quando": "2026-11-15T11:30-03:00",
     "titulo": "Video 06 - 30 FPS confirmado",
     "arquivo": "2026-11-15_12h00-video-06-30-fps-confirmado.mp4",
     "ia": false,
@@ -135,8 +135,8 @@
     }
   },
   {
-    "id": "2026-11-15_18h00",
-    "quando": "2026-11-15T18:00-03:00",
+    "id": "2026-11-15_17h30",
+    "quando": "2026-11-15T17:30-03:00",
     "titulo": "Video 13 - Top 5 (RANKING)",
     "arquivo": "2026-11-15_18h00-video-13-top-5-ranking.mp4",
     "ia": true,
@@ -162,8 +162,8 @@
     }
   },
   {
-    "id": "2026-11-16_12h00",
-    "quando": "2026-11-16T12:00-03:00",
+    "id": "2026-11-16_11h30",
+    "quando": "2026-11-16T11:30-03:00",
     "titulo": "Video 07 - PS5 Pro e 60 FPS",
     "arquivo": "2026-11-16_12h00-video-07-ps5-pro-e-60-fps.mp4",
     "ia": false,
@@ -189,8 +189,8 @@
     }
   },
   {
-    "id": "2026-11-16_18h00",
-    "quando": "2026-11-16T18:00-03:00",
+    "id": "2026-11-16_17h30",
+    "quando": "2026-11-16T17:30-03:00",
     "titulo": "Video 14 - Quem e Lucia (CINEMA)",
     "arquivo": "2026-11-16_18h00-video-14-quem-e-lucia-cinema.mp4",
     "ia": true,
@@ -216,8 +216,8 @@
     }
   },
   {
-    "id": "2026-11-17_12h00",
-    "quando": "2026-11-17T12:00-03:00",
+    "id": "2026-11-17_11h30",
+    "quando": "2026-11-17T11:30-03:00",
     "titulo": "Video 02 - Recursos do PS5",
     "arquivo": "2026-11-17_12h00-video-02-recursos-do-ps5.mp4",
     "ia": false,
@@ -243,8 +243,8 @@
     }
   },
   {
-    "id": "2026-11-17_18h00",
-    "quando": "2026-11-17T18:00-03:00",
+    "id": "2026-11-17_17h30",
+    "quando": "2026-11-17T17:30-03:00",
     "titulo": "Video 08 - Xbox One pela nuvem",
     "arquivo": "2026-11-17_18h00-video-08-xbox-one-pela-nuvem.mp4",
     "ia": false,
@@ -270,8 +270,8 @@
     }
   },
   {
-    "id": "2026-11-18_12h00",
-    "quando": "2026-11-18T12:00-03:00",
+    "id": "2026-11-18_11h30",
+    "quando": "2026-11-18T11:30-03:00",
     "titulo": "Video 09 - Nuvem e Remote Play",
     "arquivo": "2026-11-18_12h00-video-09-nuvem-e-remote-play.mp4",
     "ia": false,
@@ -297,8 +297,8 @@
     }
   },
   {
-    "id": "2026-11-18_18h00",
-    "quando": "2026-11-18T18:00-03:00",
+    "id": "2026-11-18_17h30",
+    "quando": "2026-11-18T17:30-03:00",
     "titulo": "Video 15 - Dia do lancamento (CAIXINHA)",
     "arquivo": "2026-11-18_18h00-video-15-dia-do-lancamento-caixinha.mp4",
     "ia": true,
@@ -324,8 +324,8 @@
     }
   },
   {
-    "id": "2026-11-19_12h00",
-    "quando": "2026-11-19T12:00-03:00",
+    "id": "2026-11-19_11h30",
+    "quando": "2026-11-19T11:30-03:00",
     "titulo": "Video 10 - 75 por cento no PlayStation",
     "arquivo": "2026-11-19_12h00-video-10-75-por-cento-no-playstation.mp4",
     "ia": false,
@@ -351,8 +351,8 @@
     }
   },
   {
-    "id": "2026-11-19_18h00",
-    "quando": "2026-11-19T18:00-03:00",
+    "id": "2026-11-19_17h30",
+    "quando": "2026-11-19T17:30-03:00",
     "titulo": "Video 03 - Corridas do online",
     "arquivo": "2026-11-19_18h00-video-03-corridas-do-online.mp4",
     "ia": false,
@@ -378,8 +378,8 @@
     }
   },
   {
-    "id": "2026-11-20_12h00",
-    "quando": "2026-11-20T12:00-03:00",
+    "id": "2026-11-20_11h30",
+    "quando": "2026-11-20T11:30-03:00",
     "titulo": "Video 04 - Trailer sem novidade",
     "arquivo": "2026-11-20_12h00-video-04-trailer-sem-novidade.mp4",
     "ia": false,
