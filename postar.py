@@ -137,8 +137,16 @@ PRECISA_ARQUIVO = {"youtube"}
 
 # ---------------------------------------------------------------- fila
 
+SEGREDOS = {"instagram": ["IG_TOKEN"], "youtube": ["YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"]}
+
+
+def conectada(p):
+    """Rede sem token ainda = so espera (nao conta como erro)."""
+    return TESTE or all(os.environ.get(s) for s in SEGREDOS.get(p, []))
+
+
 def pendentes(cfg, item):
-    ativas = [p for p, on in cfg["plataformas"].items() if on]
+    ativas = [p for p, on in cfg["plataformas"].items() if on and conectada(p)]
     saida = []
     for p in ativas:
         st = item.setdefault("status", {}).get(p, {})
@@ -174,6 +182,9 @@ def main():
     tolerancia = dt.timedelta(minutes=10)
     atraso_max = dt.timedelta(hours=cfg.get("atraso_maximo_horas", 24))
 
+    for p, on in cfg["plataformas"].items():
+        if on and not conectada(p):
+            log(f"{p}: ainda sem token, esperando (rode o CONECTAR do {p}).")
     na_hora = [i for i in fila if quando(i) <= hoje + tolerancia and pendentes(cfg, i)]
     log(f"Agora: {hoje:%d/%m %H:%M}. Na fila: {len(fila)}. Prontos pra postar: {len(na_hora)}.")
 
@@ -211,8 +222,7 @@ def main():
                 log(f"    {p}: ERRO {e}")
                 houve_erro = True
             mudou = True
-        if not pendentes(cfg, item) and all(item["status"].get(p, {}).get("ok")
-                                             for p, on in cfg["plataformas"].items() if on):
+        if all(item["status"].get(p, {}).get("ok") for p, on in cfg["plataformas"].items() if on):
             apagar_video(cfg, item)
         feitos += 1
 

@@ -14,7 +14,7 @@
   "instagram_user_id": "",
   "youtube_categoria": "20",
   "max_por_execucao": 1,
-  "atraso_maximo_horas": 24,
+  "atraso_maximo_horas": 3,
   "max_tentativas": 3,
   "apagar_video_depois": true
 }

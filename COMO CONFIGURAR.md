@@ -79,7 +79,7 @@ com horário que ainda não passou, sobe e agenda. Pode rodar quantas vezes quis
 - O robô roda **a cada 30 min, das 9h às 23h30**. O GitHub às vezes atrasa uns minutos, então um vídeo das 12h sai entre 12h e 12h40.
 - Ele posta **1 vídeo por rodada**. Se der erro, tenta de novo nas próximas rodadas (até 3 vezes).
   Se falhar, a rodada fica vermelha e o GitHub te avisa por e-mail.
-- Vídeo com **mais de 24h de atraso** não é postado (pra não despejar vários de uma vez). Pra reagendar, mude o
+- Vídeo com **mais de 3h de atraso** não é postado (pra não despejar vários de uma vez). Pra reagendar, mude o
   `"quando"` dele na `fila.json` e suba de novo.
 - Depois de postado, o vídeo é apagado da fila do GitHub (o original continua no seu Drive).
 - Vídeos com narração de IA (os que têm `_sistema\narracoes\vNN.txt`) sobem no YouTube com o aviso de "conteúdo alterado/sintético", como o YouTube exige.
