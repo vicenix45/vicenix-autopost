@@ -5,6 +5,12 @@ import sys
 
 import requests
 
+from comum import ler_config
+
+if ler_config().get("instagram_host") == "graph.facebook.com":
+    print("Token de usuario do sistema (login unificado): nao vence, nada pra renovar.")
+    sys.exit(0)
+
 antigo = os.environ.get("IG_TOKEN", "")
 if not antigo:
     sys.exit("Segredo IG_TOKEN vazio. Rode 'CONECTAR INSTAGRAM.bat' no PC.")

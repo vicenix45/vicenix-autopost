@@ -10,6 +10,8 @@
   },
   "instagram_conta": "vicenix45",
   "instagram_api": "v27.0",
+  "instagram_host": "graph.instagram.com",
+  "instagram_user_id": "",
   "youtube_categoria": "20",
   "max_por_execucao": 1,
   "atraso_maximo_horas": 24,

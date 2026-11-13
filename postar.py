@@ -25,9 +25,15 @@ def log(msg):
 
 # ---------------------------------------------------------------- Instagram
 
+def ig_base(cfg):
+    # graph.instagram.com = token do login do Instagram (IGAA...)
+    # graph.facebook.com  = token do login unificado / usuario do sistema (EAA...)
+    return f"https://{cfg.get('instagram_host', 'graph.instagram.com')}/{cfg['instagram_api']}"
+
+
 def ig_get(cfg, caminho, **params):
     params["access_token"] = os.environ["IG_TOKEN"]
-    r = requests.get(f"https://graph.instagram.com/{cfg['instagram_api']}/{caminho}", params=params, timeout=60)
+    r = requests.get(f"{ig_base(cfg)}/{caminho}", params=params, timeout=60)
     if not r.ok:
         raise RuntimeError(f"Instagram GET {caminho}: {r.status_code} {r.text[:400]}")
     return r.json()
@@ -35,7 +41,7 @@ def ig_get(cfg, caminho, **params):
 
 def ig_post(cfg, caminho, **dados):
     dados["access_token"] = os.environ["IG_TOKEN"]
-    r = requests.post(f"https://graph.instagram.com/{cfg['instagram_api']}/{caminho}", data=dados, timeout=120)
+    r = requests.post(f"{ig_base(cfg)}/{caminho}", data=dados, timeout=120)
     if not r.ok:
         raise RuntimeError(f"Instagram POST {caminho}: {r.status_code} {r.text[:400]}")
     return r.json()
@@ -65,7 +71,7 @@ def ig_container(cfg, user_id, item, video):
 
 
 def postar_instagram(cfg, item, _arquivo_local):
-    user_id = ig_get(cfg, "me", fields="user_id,username")["user_id"]
+    user_id = cfg.get("instagram_user_id") or ig_get(cfg, "me", fields="user_id,username")["user_id"]
     link = url_video(cfg, item)
     try:
         cid = ig_container(cfg, user_id, item, link)

@@ -9,7 +9,7 @@ sobe os vídeos pro GitHub e um robô no GitHub posta **sozinho no horário**, c
 | YouTube Shorts | Código pronto, **desligado**. O Google trava como privado todo vídeo enviado por app novo até aprovar uma auditoria (grátis, leva semanas). Faça o passo 3 e peça a auditoria. |
 | TikTok / Kwai | Manual por enquanto. No TikTok dá pra agendar até 10 dias antes pelo site (TikTok Studio). |
 
-Faça uma vez só, na ordem. Leva uns 20 minutos.
+Faça uma vez só, na ordem. Leva uns 30 minutos.
 
 ---
 
@@ -25,26 +25,29 @@ Faça uma vez só, na ordem. Leva uns 20 minutos.
 > Quem abrir o repo vê os vídeos da fila e o seu nome de usuário do GitHub. Se o canal é pra ser anônimo,
 > use um usuário do GitHub que não tenha seu nome.
 
-## 2. Instagram (10 min)
+## 2. Instagram (15 min)
 
-A conta `@vicenix45` já é Profissional, então não precisa de Página do Facebook.
+A Meta trocou o "login do Instagram" pelo **login unificado**, que exige um **portfólio empresarial**
+(grátis, sem cartão). Em troca, o token do "usuário do sistema" **nunca vence**.
 
-1. Entre em **developers.facebook.com** → **Meus apps** → **Criar app**.
-   (Se pedir, cadastre-se como desenvolvedor com seu Facebook. O app não aparece no seu perfil.)
-2. Nome do app: `vicenix autopost`. Caso de uso: **"Gerenciar mensagens e conteúdo no Instagram"**. Conclua.
-3. No app: **Casos de uso** → **Personalizar** (no caso do Instagram) → **Configuração da API com login do Instagram**.
-   Confira se as permissões `instagram_business_basic` e `instagram_business_content_publish` estão adicionadas.
-4. Em **"Gerar tokens de acesso"** → **Adicionar conta** → entre com a `@vicenix45` e permita.
-   - Se pedir pra aceitar convite de testador: no app do Instagram, **Configurações → Apps e sites → Convites de testador → Aceitar**, e volte aqui.
-5. Clique em **Gerar token** ao lado da conta e **copie** o token.
-6. Crie o token do GitHub que deixa o robô renovar o do Instagram sozinho (ele vence em 60 dias):
-   **github.com/settings/personal-access-tokens/new** →
-   nome `renovar-instagram`, validade **1 ano**, *Repository access*: **Only select repositories** → `vicenix-autopost`,
-   *Permissions* → **Secrets: Read and write** → **Generate token** → copie.
-7. Dê dois cliques em **`2 - CONECTAR INSTAGRAM.bat`** e cole o token do Instagram (não aparece na tela, é normal).
-   Depois ele pede o token do GitHub (item 6): cole também.
+> Conta do Facebook criada agora? A Meta só deixa criar o portfólio **1 hora** depois.
 
-> O app fica em "modo de desenvolvimento" pra sempre, e tudo bem: nesse modo ele posta na sua própria conta sem precisar de revisão da Meta.
+1. **App** (já feito): developers.facebook.com/apps → `vicenix autopost`, caso de uso "Gerenciar mensagens e conteúdo no Instagram".
+2. **Portfólio:** no app → **Casos de uso → Personalizar → API setup with Unified login → + Portfólio empresarial → Criar**.
+   Nome **`Vicenix`** (com maiúscula), e-mail `vicenix45@gmail.com`. Selecione o portfólio e conclua.
+3. **Ligar o Instagram ao portfólio:** **business.facebook.com/settings** → **Contas → Contas do Instagram → Adicionar** → entre com a `@vicenix45`.
+4. **Usuário do sistema (o robô):** em business.facebook.com/settings → **Usuários → Usuários do sistema → Adicionar**.
+   Nome `robo`, função **Administrador**.
+5. Com o `robo` selecionado → **Atribuir ativos**:
+   - **Apps** → `vicenix autopost` → **Controle total**.
+   - **Contas do Instagram** → `vicenix45` → **Controle total**.
+6. Ainda no `robo` → **Gerar token** → app `vicenix autopost` → validade **Nunca** → marque as permissões
+   `instagram_basic`, `instagram_content_publish`, `business_management` (e `pages_show_list`, se aparecer) → **Gerar** → copie.
+7. Dê dois cliques em **`2 - CONECTAR INSTAGRAM.bat`** e cole o token (não aparece na tela, é normal).
+   Ele acha a conta sozinho; se não achar, pede o número da conta (está em **Contas do Instagram → vicenix45 → Identificação**).
+
+> O app continua "Não publicado" e tudo bem: ele só posta na sua própria conta, sem revisão da Meta.
+> Se um dia usar um token `IGAA...` (login do Instagram), o `.bat` também aceita e pede o token do GitHub pra renovar.
 
 ## 3. YouTube (10 min, pode deixar pra depois)
 
