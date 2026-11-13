@@ -89,7 +89,7 @@ def postar_instagram(cfg, item, _arquivo_local):
 
 # ---------------------------------------------------------------- YouTube
 
-def postar_youtube(cfg, item, arquivo_local):
+def postar_youtube(cfg, item, arquivo_local, privacidade="public"):
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
@@ -114,7 +114,7 @@ def postar_youtube(cfg, item, arquivo_local):
             "defaultAudioLanguage": "pt-BR",
         },
         "status": {
-            "privacyStatus": "public",
+            "privacyStatus": privacidade,
             "selfDeclaredMadeForKids": False,
             "containsSyntheticMedia": bool(item.get("ia")),
         },
