@@ -49,7 +49,6 @@ label.chk{font-size:12px;color:var(--mut);display:flex;gap:5px;align-items:cente
   <div class="links">
     <a href="https://studio.youtube.com" target="_blank">YouTube Studio ↗</a>
     <a href="https://www.tiktok.com/tiktokstudio/upload" target="_blank">TikTok Studio ↗</a>
-    <a href="https://www.kwai.com" target="_blank">Kwai ↗</a>
     <a href="https://github.com/__REPO__/actions" target="_blank">Robô do Instagram ↗</a>
   </div>
   <div class="filtros">
@@ -66,7 +65,6 @@ label.chk{font-size:12px;color:var(--mut);display:flex;gap:5px;align-items:cente
 <p><b>TikTok</b> (pelo computador, TikTok Studio → Enviar; agenda com até 10 dias de antecedência):</p>
 <ol><li>Envie o vídeo → <b>Copiar legenda</b> → cola na descrição.</li>
 <li>Ative <b>Programar</b> → data e hora do cartão → Programar.</li></ol>
-<p><b>Kwai</b>: não tem agendamento. No horário, pelo celular: abra o vídeo no app do Google Drive (pasta GTA6/PRONTOS PARA POSTAR) → baixar → postar no Kwai com a legenda do arquivo <i>LEGENDA.txt</i> (ou copie daqui e mande pro celular).</p>
 <p><b>Instagram</b>: automático pelo robô. Se precisar postar na mão, a legenda está no cartão.</p>
 <p>Marque as caixinhas conforme for agendando. Elas ficam salvas neste computador.</p>
 </details>
@@ -77,7 +75,6 @@ const DADOS = __DADOS__;
 const REDES = [
   {k:"youtube", nome:"YouTube Shorts", c:"var(--yt)", botoes:[["Copiar título","titulo"],["Copiar descrição","descricao"]]},
   {k:"tiktok", nome:"TikTok", c:"var(--tt)", botoes:[["Copiar legenda","legenda"]]},
-  {k:"kwai", nome:"Kwai", c:"var(--kw)", botoes:[["Copiar legenda","legenda"]]},
   {k:"instagram", nome:"Reels", c:"var(--ig)", botoes:[["Copiar legenda","legenda"]], auto:true},
 ];
 const mem = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
