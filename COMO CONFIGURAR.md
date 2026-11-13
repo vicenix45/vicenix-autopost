@@ -55,7 +55,8 @@ A Meta trocou o "login do Instagram" pelo **login unificado**, que exige um **po
 2. **APIs e serviços → Biblioteca** → procure **YouTube Data API v3** → **Ativar**.
 3. **Google Auth Platform** (ou "Tela de permissão OAuth") → **Começar**: nome `vicenix autopost`, seu e-mail,
    público **Externo**, aceite e crie.
-4. **Público** → **Publicar app** → confirmar (fica "Em produção").
+4. **Branding** → preencha *Página inicial* `https://vicenix45.github.io/vicenix-autopost/`, *Política de Privacidade* `.../privacidade.html`, *Termos* `.../termos.html` e em *Domínios autorizados* `vicenix45.github.io` → Salvar.
+   Depois **Público** → **Publicar app** → confirmar (fica "Em produção").
    **Não pule isso**: em "Teste" a autorização vence a cada 7 dias.
 5. **Clientes** → **Criar cliente** → tipo **App para computador** → Criar → **Baixar JSON**.
    Salve nesta pasta `AUTOPOST` com o nome **`client_secret.json`** (ele nunca sobe pro GitHub).
