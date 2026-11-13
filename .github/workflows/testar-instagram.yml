@@ -1,0 +1,21 @@
+name: Testar Instagram
+
+# Cria o Reels do proximo video e espera processar, mas NAO publica.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Testar (sem publicar)
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python testar_instagram.py
