@@ -91,8 +91,8 @@
     },
     "status": {
       "instagram": {
-        "tentativas": 1,
-        "erro": "Instagram POST 17841453494760704/media: 400 {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AvHmZmo9g1YDfGJKKwxjQ2g\"}}"
+        "tentativas": 2,
+        "erro": "Instagram POST 17841453494760704/media: 400 {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AJ3JxbNvHxkkx1zUhhBQvQ6\"}}"
       }
     },
     "tiktok": {
