@@ -121,7 +121,12 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "tentativas": 1,
+        "erro": "Instagram POST 17841453494760704/media: 400 {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AdNWtab4oUNIEW5cIcw57Fg\"}}"
+      }
+    },
     "tiktok": {
       "legenda": "Concorda? GTA VI vai ser o maior de todos os tempos 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
