@@ -5,7 +5,7 @@
   "pasta_narracoes": "../_sistema/narracoes",
   "fuso_horas": -3,
   "plataformas": {
-    "instagram": true,
+    "instagram": false,
     "youtube": false
   },
   "instagram_conta": "vicenix45",

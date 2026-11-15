@@ -89,12 +89,7 @@
         "gta6news"
       ]
     },
-    "status": {
-      "instagram": {
-        "tentativas": 3,
-        "erro": "Instagram POST 17841453494760704/media: 400 {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AqaJMz2TBKThVXe4nlgOMoZ\"}}"
-      }
-    },
+    "status": {},
     "tiktok": {
       "legenda": "Você já baixou o GTA VI? Comenta aí 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
@@ -121,12 +116,7 @@
         "gta6news"
       ]
     },
-    "status": {
-      "instagram": {
-        "tentativas": 3,
-        "erro": "Instagram POST 17841453494760704/media: 400 {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AEB1J86FnvlsjLT-qg0n8Y9\"}}"
-      }
-    },
+    "status": {},
     "tiktok": {
       "legenda": "Concorda? GTA VI vai ser o maior de todos os tempos 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
