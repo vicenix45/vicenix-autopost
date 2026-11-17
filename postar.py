@@ -145,8 +145,12 @@ def conectada(p):
     return TESTE or all(os.environ.get(s) for s in SEGREDOS.get(p, []))
 
 
+YT_TRAVADO = False  # vira True se o YouTube devolveu um envio como privado (auditoria do Google pendente)
+
+
 def pendentes(cfg, item):
-    ativas = [p for p, on in cfg["plataformas"].items() if on and conectada(p)]
+    ativas = [p for p, on in cfg["plataformas"].items() if on and conectada(p)
+              and not (p == "youtube" and YT_TRAVADO)]
     saida = []
     for p in ativas:
         st = item.setdefault("status", {}).get(p, {})
@@ -176,10 +180,15 @@ def apagar_video(cfg, item):
 
 
 def main():
+    global YT_TRAVADO
     cfg = ler_config()
     fila = ler_fila()
+    YT_TRAVADO = any(i.get("status", {}).get("youtube", {}).get("travado") for i in fila)
+    if YT_TRAVADO and cfg["plataformas"].get("youtube"):
+        log("youtube: PAUSADO. Um envio voltou como privado (auditoria do Google ainda nao aprovada). "
+            "Quando aprovar, apague o 'travado' da fila.json.")
     hoje = agora(cfg)
-    tolerancia = dt.timedelta(minutes=10)
+    tolerancia = dt.timedelta(minutes=2)
     atraso_max = dt.timedelta(hours=cfg.get("atraso_maximo_horas", 24))
 
     for p, on in cfg["plataformas"].items():
@@ -215,14 +224,23 @@ def main():
             st = item["status"].get(p, {})
             try:
                 res = POSTADORES[p](cfg, item, local)
-                item["status"][p] = {"ok": True, "em": agora(cfg).isoformat(timespec="minutes"), **res}
-                log(f"    {p}: POSTADO {res.get('url', '')}")
+                if p == "youtube" and res.get("privacidade") != "public":
+                    # Google trava como privado os envios de projeto sem auditoria: para de enviar
+                    item["status"][p] = {"travado": True, "em": agora(cfg).isoformat(timespec="minutes"), **res}
+                    log(f"    youtube: ATENCAO, o video ficou {res.get('privacidade')} (auditoria pendente). "
+                        "YouTube pausado no robo.")
+                    YT_TRAVADO = True
+                    houve_erro = True
+                else:
+                    item["status"][p] = {"ok": True, "em": agora(cfg).isoformat(timespec="minutes"), **res}
+                    log(f"    {p}: POSTADO {res.get('url', '')}")
             except Exception as e:  # noqa: BLE001 - qualquer erro vira tentativa registrada
                 item["status"][p] = {"tentativas": st.get("tentativas", 0) + 1, "erro": str(e)[:500]}
                 log(f"    {p}: ERRO {e}")
                 houve_erro = True
             mudou = True
-        if all(item["status"].get(p, {}).get("ok") for p, on in cfg["plataformas"].items() if on):
+        if all(item["status"].get(p, {}).get("ok") or item["status"].get(p, {}).get("travado")
+               for p, on in cfg["plataformas"].items() if on):
             apagar_video(cfg, item)
         feitos += 1
 

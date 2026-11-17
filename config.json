@@ -6,7 +6,7 @@
   "fuso_horas": -3,
   "plataformas": {
     "instagram": true,
-    "youtube": false
+    "youtube": true
   },
   "instagram_conta": "vicenix45",
   "instagram_api": "v27.0",

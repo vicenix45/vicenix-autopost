@@ -2,8 +2,8 @@ name: Postar videos
 
 on:
   schedule:
-    # a cada 30 min, das 9h as 23h30 (horario de Brasilia = UTC-3)
-    - cron: "3,33 12-23,0-2 * * *"
+    # a cada 10 min, das 9h as 23h50 (horario de Brasilia = UTC-3); o GitHub atrasa/pula execucoes, por isso tantas
+    - cron: "*/10 12-23,0-2 * * *"
   workflow_dispatch: {}
 
 permissions:
