@@ -317,7 +317,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-17T18:41-03:00",
+        "id": "17953813860056006",
+        "url": "https://www.instagram.com/reel/Df262M8lydp/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-17T18:41-03:00",
+        "id": "daSikqdax2k",
+        "url": "https://youtube.com/shorts/daSikqdax2k",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "GTA VI no Xbox One pela nuvem: você jogaria? 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
