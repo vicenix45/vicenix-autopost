@@ -358,7 +358,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-18T12:27-03:00",
+        "id": "18102794480401668",
+        "url": "https://www.instagram.com/reel/Df40zY0nBdb/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-18T12:27-03:00",
+        "id": "fu9d8F0-Wec",
+        "url": "https://youtube.com/shorts/fu9d8F0-Wec",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Sua internet aguenta GTA VI na nuvem? 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
