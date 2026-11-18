@@ -399,7 +399,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-18T18:34-03:00",
+        "id": "18402915379165720",
+        "url": "https://www.instagram.com/reel/Df5ex-rjVE0/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-18T18:34-03:00",
+        "id": "arzqAXvYtec",
+        "url": "https://youtube.com/shorts/arzqAXvYtec",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Você vai comprar GTA VI no lançamento? Sim ou não? 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
