@@ -440,7 +440,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-18T22:51-03:00",
+        "id": "17982931470136849",
+        "url": "https://www.instagram.com/reel/Df58M58iLpG/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-18T22:51-03:00",
+        "id": "Ydu9KjFi9G8",
+        "url": "https://youtube.com/shorts/Ydu9KjFi9G8",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Correr no L3 em GTA VI: aprovou ou vai trocar? 👇 🎮 Gameplay: Paulinho O Loko (@paulinhooloko)\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
