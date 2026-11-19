@@ -605,7 +605,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-19T18:34-03:00",
+        "id": "18076081631494644",
+        "url": "https://www.instagram.com/reel/Df8DoXbHB35/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-19T18:34-03:00",
+        "id": "eqtG99eUWqU",
+        "url": "https://youtube.com/shorts/eqtG99eUWqU",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Essa teoria do GTA VI Online faz sentido pra você? 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
