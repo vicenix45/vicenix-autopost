@@ -523,7 +523,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-19T12:29-03:00",
+        "id": "18103989818548313",
+        "url": "https://www.instagram.com/reel/Df7Z5QVnKFT/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-19T12:30-03:00",
+        "id": "HrvUzGiNgLw",
+        "url": "https://youtube.com/shorts/HrvUzGiNgLw",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "PS5 ou Xbox pro GTA VI? Comenta o seu 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
