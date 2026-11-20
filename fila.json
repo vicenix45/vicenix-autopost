@@ -728,7 +728,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-20T18:29-03:00",
+        "id": "18199825762387983",
+        "url": "https://www.instagram.com/reel/Df-nzZbkWww/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-20T18:29-03:00",
+        "id": "oZC4EjZPAhg",
+        "url": "https://youtube.com/shorts/oZC4EjZPAhg",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Concorda? GTA VI vai ser o maior de todos os tempos 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
