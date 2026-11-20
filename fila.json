@@ -646,7 +646,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-20T12:28-03:00",
+        "id": "18196430044354900",
+        "url": "https://www.instagram.com/reel/Df9-fZhDLPW/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-20T12:28-03:00",
+        "id": "uffsLrkvONw",
+        "url": "https://youtube.com/shorts/uffsLrkvONw",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Sincero: esse trailer de GTA VI trouxe novidade? 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
