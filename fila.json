@@ -851,7 +851,21 @@
         "lucia"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-21T18:16-03:00",
+        "id": "17986731698904219",
+        "url": "https://www.instagram.com/reel/DgBLJR5FZTh/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-21T18:16-03:00",
+        "id": "qpq-jz2sF20",
+        "url": "https://youtube.com/shorts/qpq-jz2sF20",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Só a Rockstar pra te obrigar a limpar a casa 🧹😂 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
