@@ -810,7 +810,21 @@
         "gta6gameplay"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-21T15:01-03:00",
+        "id": "18499583914107353",
+        "url": "https://www.instagram.com/reel/DgA0xqnilyD/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-21T15:01-03:00",
+        "id": "IgmprdZABeU",
+        "url": "https://youtube.com/shorts/IgmprdZABeU",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Qual desses detalhes te pegou? 👇 🎮 Gameplay: Paulinho O Loko (@paulinhooloko)\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
