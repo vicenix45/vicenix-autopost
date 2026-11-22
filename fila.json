@@ -892,7 +892,21 @@
         "eastereggs"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-22T12:27-03:00",
+        "id": "17901188853405949",
+        "url": "https://www.instagram.com/reel/DgDICoODB9G/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-22T12:28-03:00",
+        "id": "QYS8YtSCQKw",
+        "url": "https://youtube.com/shorts/QYS8YtSCQKw",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "A Rockstar escondeu um jogo de terror dentro de GTA VI 😱 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #easteregg"
     }
