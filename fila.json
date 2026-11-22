@@ -933,7 +933,21 @@
         "rdr2"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-22T15:44-03:00",
+        "id": "18139686034646438",
+        "url": "https://www.instagram.com/reel/DgDegefk5I0/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-22T15:44-03:00",
+        "id": "IpJxQ_yRnJs",
+        "url": "https://youtube.com/shorts/IpJxQ_yRnJs",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "GTA VI tá com cara de Red Dead 2… concorda? 👇 🎮 Gameplay: Paulinho O Loko (@paulinhooloko)\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #reddeadredemption2"
     }
