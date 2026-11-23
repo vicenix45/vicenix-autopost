@@ -1056,7 +1056,21 @@
         "gta6news"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-23T15:42-03:00",
+        "id": "17995452132073444",
+        "url": "https://www.instagram.com/reel/DgGDFHwCD4y/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-23T15:42-03:00",
+        "id": "U79Pms1ClXM",
+        "url": "https://youtube.com/shorts/U79Pms1ClXM",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Você também vai se emocionar no primeiro minuto de GTA VI? 👇 🎮 Gameplay: Paulinho O Loko (@paulinhooloko)\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
