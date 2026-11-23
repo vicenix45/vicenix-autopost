@@ -1097,7 +1097,21 @@
         "gtacommunity"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-23T18:38-03:00",
+        "id": "18135878365765723",
+        "url": "https://www.instagram.com/reel/DgGXLzCjLMu/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-23T18:38-03:00",
+        "id": "8lutYpNkVTQ",
+        "url": "https://youtube.com/shorts/8lutYpNkVTQ",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Uma homenagem a quem esperou GTA VI e não está aqui pra jogar 🕊️ 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
