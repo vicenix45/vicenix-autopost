@@ -1015,7 +1015,21 @@
         "gta6gameplay"
       ]
     },
-    "status": {},
+    "status": {
+      "instagram": {
+        "ok": true,
+        "em": "2026-11-23T12:45-03:00",
+        "id": "18117819506142403",
+        "url": "https://www.instagram.com/reel/DgFuxlJjehM/"
+      },
+      "youtube": {
+        "ok": true,
+        "em": "2026-11-23T12:45-03:00",
+        "id": "ISH754xa9oo",
+        "url": "https://youtube.com/shorts/ISH754xa9oo",
+        "privacidade": "public"
+      }
+    },
     "tiktok": {
       "legenda": "Foi caçar tesouro no fundo do mar de GTA VI e… 😳 👇\n\n#gta6 #gtavi #gta6clips #fyp #foryou #gaming #viral #rockstargames"
     }
